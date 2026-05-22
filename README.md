@@ -10,7 +10,7 @@ The core pipeline addresses two critical challenges simultaneously using a unifi
 ## 📊 Performance Analytics Matrix
 The model was optimized over the **MUTAG bioinformatics benchmark dataset** containing nitroaromatic compounds evaluated for safety versus anti-tumor efficacy. 
 
-By applying inverse-class density balancing weights ($\text{pos\_weight} = 0.504$) and expanding optimization thresholds to 80 epochs, the system eliminated major majority-class classification bias, stabilizing into a perfectly symmetric predictive diagonal:
+By applying inverse-class density balancing weights (pos_weight = 0.504) and expanding optimization thresholds to 80 epochs, the system eliminated major majority-class classification bias, stabilizing into a perfectly symmetric predictive diagonal:
 
 ### Executed Diagnostic Output:
 ![Performance Dashboard Matrix](performance_dashboard.png)
